@@ -228,6 +228,10 @@ Moscow, Russia
 
 **Technologies:** C++, TCP/IP, PHP, MSSQL, MySQL
 
+---
+
+---
+
 ## Architectural & Systems Expertise
 
 * Design of distributed, microservices, and event-driven architectures

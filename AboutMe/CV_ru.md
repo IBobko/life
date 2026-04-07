@@ -228,6 +228,10 @@ https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
 **Технологии:** C++, TCP/IP, PHP, MSSQL, MySQL
 
+---
+
+---
+
 ## Архитектурная и системная экспертиза
 
 * Проектирование распределённых, микросервисных и event-driven архитектур
