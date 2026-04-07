@@ -20,13 +20,13 @@ Strong background in building end-to-end systems:
 * backend platform engineering with Python and Java
 * production delivery for real-world use cases
 
-Focused on building systems that operate not only on data, but on meaning, reasoning, and decision support.
+Focused on building systems that operate not only on data, but on meaning, reasoning, and structured decision support.
 
 ## Key Skills
 
 * **Languages:** Java, Python, C++, JavaScript/TypeScript, SQL
 * **Frameworks & Platforms:** Spring (Core, WebFlux), FastAPI, Node.js, React, Vue.js
-* **AI/ML:** OpenAI API, Hugging Face, TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV
+* **AI/ML:** OpenAI API, Hugging Face, LLM integration, TensorFlow, PyTorch, Scikit-learn, OpenCV
 * **Architecture & System Design:** High-load systems, distributed architectures, microservices, asynchronous processing, job pipelines, fault-tolerant systems, event-driven systems, REST/gRPC
 * **Cloud & DevOps:** Docker, Kubernetes, CI/CD, Azure, AWS
 * **Databases & Messaging:** PostgreSQL, MySQL, Oracle, Redis, Kafka, Google Spanner
@@ -51,7 +51,7 @@ Focused on building systems that operate not only on data, but on meaning, reaso
 
 https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
-* Architected and built a production-grade **mobile + backend AI platform** for real-world conversation analysis with active end users.
+* Architected and built a production-grade **mobile + backend AI platform** for real-world conversation analysis with real-world usage and active users.
 * Designed an end-to-end processing pipeline: **audio capture → transcription → LLM analysis → structured JSON output**.
 * Implemented a **job-based async processing system** with queue handling, retries, idempotency, long-running job tracking, and polling.
 * Designed **schema-driven LLM outputs** with strict JSON contracts, enabling deterministic parsing and stable UI integration.
@@ -79,7 +79,7 @@ https://play.google.com/store/apps/details?id=ai.lexhumanitas
 * Built UI components using Google’s **Wiz** framework and integrated workflows with **Google Sheets**.
 * Led import and processing workflows, including data transformation and validation pipelines.
 * Implemented fine-grained access control and collaborated on security-sensitive integrations.
-* Worked closely with Google teams on architecture, integration, and platform evolution.
+* Collaborated closely with Google teams on architecture, integration, and platform evolution.
 * **Team size:** 13
 
 **Technologies:** Java, RPC, Google Spanner, Google Sheets API, Wiz UI, CI/CD
