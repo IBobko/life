@@ -273,7 +273,7 @@ Moscow, Russia
 
 * Created an independent research platform exploring meaning-centered approaches to AI, cognition, science, and interpretation.
 * Authored long-form articles and built a cross-platform audience through web publishing and Telegram.
-* Publicly advocated for restoration of the Voice editing feature in OpenAI’s ChatGPT product.
+* Took initiative and actively engaged with OpenAI support to help bring back the Voice editing feature in ChatGPT.
 
 ### Meaning-Centered AI / SENSMAP
 
