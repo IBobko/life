@@ -7,26 +7,26 @@ Languages: Russian (native), English (fluent)
 
 ## Profile Summary
 
-Software Architect / Team Lead with 20+ years of experience designing and building distributed systems, AI-powered platforms, and high-load backend architectures.
+Software Architect / Team Lead with 20+ years of experience designing distributed, high-load, and AI-driven systems.
 
-Founder and architect of **Lex Humanitas**, a production AI platform for real-time speech transcription, structured LLM analysis, and manipulation-aware reasoning, published on Google Play.
+Founder and architect of **Lex Humanitas** — a production AI platform for real-time speech transcription and structured LLM-based reasoning, with a focus on manipulation detection and semantic analysis.
 
-Hands-on experience across architecture design, distributed systems, and AI platform engineering:
+Strong background in building end-to-end systems:
 
-* system architecture and technical design
-* distributed and asynchronous processing
-* AI/LLM integration and schema-driven outputs
-* backend platform development with Python and Java
-* end-to-end product engineering from architecture to production delivery
+* architecture design and technical decomposition
+* distributed, fault-tolerant, and asynchronous processing
+* AI/LLM integration with schema-driven outputs
+* backend platform engineering with Python and Java
+* production delivery for real-world use cases
 
-Focused on building systems that operate not only on data, but also on interpretation, reasoning, and semantic structure.
+Focused on building systems that operate not only on data, but on meaning, reasoning, and decision support.
 
 ## Key Skills
 
 * **Languages:** Java, Python, C++, JavaScript/TypeScript, SQL
 * **Frameworks & Platforms:** Spring (Core, WebFlux), FastAPI, Node.js, React, Vue.js
 * **AI/ML:** OpenAI API, Hugging Face, TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV
-* **Architecture & System Design:** High-load systems, distributed architectures, microservices, asynchronous processing, job pipelines, fault-tolerant systems, REST/gRPC
+* **Architecture & System Design:** High-load systems, distributed architectures, microservices, asynchronous processing, job pipelines, fault-tolerant systems, event-driven systems, REST/gRPC
 * **Cloud & DevOps:** Docker, Kubernetes, CI/CD, Azure, AWS
 * **Databases & Messaging:** PostgreSQL, MySQL, Oracle, Redis, Kafka, Google Spanner
 * **Testing:** Unit, Integration, Regression, E2E, BDD, TDD
@@ -50,16 +50,16 @@ Focused on building systems that operate not only on data, but also on interpret
 
 https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
-* Architected and built a production-grade **mobile + backend AI platform** for recording, transcribing, and analyzing real-world conversations.
-* Implemented an end-to-end processing pipeline: **audio capture → transcription → LLM analysis → structured JSON output**.
-* Designed a **job-based processing architecture** with queue handling, retry logic, polling, and state tracking for long-running AI workflows.
-* Designed **schema-driven LLM outputs** with strict JSON contracts for reliable downstream parsing and UI rendering.
+* Architected and built a production-grade **mobile + backend AI platform** for real-world conversation analysis with active end users.
+* Designed an end-to-end processing pipeline: **audio capture → transcription → LLM analysis → structured JSON output**.
+* Implemented a **job-based async processing system** with queue handling, retries, idempotency, long-running job tracking, and polling.
+* Designed **schema-driven LLM outputs** with strict JSON contracts, enabling deterministic parsing and stable UI integration.
 * Built a **manipulation detection engine** for identifying pressure tactics, responsibility shifting, ambiguity patterns, and pseudo-authority signals in conversations.
-* Implemented backend infrastructure using **FastAPI, PostgreSQL, and Docker**, including idempotent requests and asynchronous workflow coordination.
-* Designed and implemented **authentication architecture** supporting device-based auth, account-based auth, and session mode switching.
-* Built **offline-tolerant mobile behavior** with sync recovery and local job persistence.
+* Implemented backend infrastructure using **FastAPI, PostgreSQL, and Docker**, including idempotent APIs and async job orchestration.
+* Designed and implemented a **hybrid authentication architecture** supporting device-based auth, account-based auth, and dynamic session mode switching.
+* Built **offline-tolerant mobile behavior** with local persistence, sync recovery, and resilient networking under unstable conditions.
 * Added a **contract / legal offer analysis module** for consumer-oriented document review.
-* Integrated LLM APIs with structured reasoning logic, validation, and schema-based output handling.
+* Integrated LLM APIs with structured reasoning logic, validation, and schema-based output handling for asynchronous AI workloads.
 
 **Key Technologies:** Python, FastAPI, PostgreSQL, Docker, Android (Kotlin), OpenAI API, async processing, job queues
 
@@ -73,7 +73,7 @@ https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
 ##### Google — GDeal Platform
 
-* Developed and maintained internal Google services supporting acquisition workflows and employee onboarding processes.
+* Designed and developed internal backend services supporting Google acquisition workflows and employee onboarding processes.
 * Designed and implemented RPC-based backend services integrated with **Google Spanner** and internal Google systems.
 * Built UI components using Google’s **Wiz** framework and integrated workflows with **Google Sheets**.
 * Led import and processing workflows, including data transformation and validation pipelines.
@@ -229,17 +229,14 @@ Moscow, Russia
 
 ## Architectural & Systems Expertise
 
-* Design and evaluation of system architectures, including **microservices, distributed systems, and event-driven architectures**
-* Experience with architectural modeling:
-
-  * static, dynamic, and allocation views
-  * system-wide decomposition and design
-* Application of **quality attribute-driven architecture (ISO 25010)** and architecture evaluation methods (ATAM)
-* Strong understanding of **concurrency and multithreaded systems**, including deadlock prevention and consistency analysis
-* Experience with **state machines and formal modeling approaches** for system behavior design
-* Knowledge of **data-flow and control-flow analysis** for system correctness and reliability
-* Design of **integration-heavy systems** using APIs, messaging, and distributed communication patterns
-* Experience working with **TCP/IP-based systems and backend integration layers**
+* Design of distributed, microservices, and event-driven architectures
+* System decomposition and architectural modeling (static, dynamic, allocation views)
+* Concurrency and multithreading design (deadlocks, consistency, synchronization)
+* Data-flow and control-flow analysis for system correctness
+* Integration-heavy system design (APIs, messaging, distributed communication)
+* State machines and formal modeling for complex workflows
+* Architecture evaluation (ATAM, ISO 25010 quality attributes)
+* TCP/IP-based systems and backend integration layers
 
 ---
 
@@ -281,8 +278,8 @@ Moscow, Russia
 
 **Research Project** | 2024 – Present
 
-* Researching semantic navigation architectures in which meaning is reconstructed through routes rather than treated as static memory.
-* Exploring combinations of NLP, symbolic reasoning, semantic routing, and context reconstruction.
+* Researching alternative AI architectures based on semantic navigation, where meaning is reconstructed through routes instead of static memory.
+* Exploring hybrid approaches combining NLP, symbolic reasoning, and semantic routing for more robust interpretation systems.
 
 ### PiCar-X Robotics Project
 
