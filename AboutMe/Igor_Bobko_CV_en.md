@@ -2,9 +2,13 @@
 
 **Software Architect / Team Lead | AI Systems**  
 Moscow, Russia  
-Email: iibobko@gmail.com  
-Languages: Russian (native), English (fluent)  
-GitHub: https://github.com/IBobko
+**Email:** iibobko@gmail.com  
+**Languages:** Russian (native), English (fluent)  
+**GitHub:** https://github.com/IBobko
+
+---
+
+---
 
 ## Profile Summary
 
@@ -22,6 +26,8 @@ Strong background in building end-to-end systems:
 
 Focused on building systems that operate not only on data, but on meaning, reasoning, and structured decision support.
 
+---
+
 ## Key Skills
 
 * **Languages:** Java, Python, C++, JavaScript/TypeScript, SQL
@@ -33,6 +39,10 @@ Focused on building systems that operate not only on data, but on meaning, reaso
 * **Testing:** Unit, Integration, Regression, E2E, BDD, TDD
 * **Other:** OOP, Design Patterns, Jupyter, Pandas, NumPy, Data Visualization
 
+---
+
+---
+
 ## Education
 
 ### Innopolis University, Innopolis, Russia
@@ -42,6 +52,10 @@ Focused on building systems that operate not only on data, but on meaning, reaso
 ### Russian State Social University, Moscow, Russia
 
 **Specialist Degree in Journalism** | 2007–2013
+
+---
+
+---
 
 ## Professional Experience
 
