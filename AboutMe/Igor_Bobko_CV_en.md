@@ -72,6 +72,10 @@ https://play.google.com/store/apps/details?id=ai.lexhumanitas
 * Built a **manipulation detection engine** for identifying pressure tactics, responsibility shifting, ambiguity patterns, and pseudo-authority signals in conversations.
 * Implemented backend infrastructure using **FastAPI, PostgreSQL, and Docker**, including idempotent APIs and async job orchestration.
 * Designed and implemented a **hybrid authentication architecture** supporting device-based auth, account-based auth, and dynamic session mode switching.
+* Designed and implemented a **user financial system** with a personal wallet, credit/debit tracking, and usage-based billing for AI operations (transcription and analysis).
+* Built an internal **transaction ledger** to track financial operations, usage attribution, and account-level consistency across async workflows.
+* Integrated **Google Play Billing** with backend purchase validation and verification, including purchase-to-wallet mapping and idempotent lifecycle handling.
+* Built a **stateful account model** that combines identity (auth), financial state (wallet and transactions), and operational state (jobs, usage, and limits).
 * Built **offline-tolerant mobile behavior** with local persistence, sync recovery, and resilient networking under unstable conditions.
 * Added a **contract / legal offer analysis module** for consumer-oriented document review.
 * Integrated LLM APIs with structured reasoning logic, validation, and schema-based output handling for asynchronous AI workloads.
