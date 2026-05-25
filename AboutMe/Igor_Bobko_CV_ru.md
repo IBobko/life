@@ -67,17 +67,6 @@ Senior Fullstack Engineer / Software Architect / Hands-on Team Lead с опыт�
 
 ## Профессиональный опыт
 
-## Relevant for Senior Fullstack Python / React roles
-
-* 20+ лет commercial software engineering experience.
-* Production backend на Python с PostgreSQL, Docker, async job processing, idempotency и API-контрактами.
-* Web frontend на React / TypeScript / Next.js для публичного AI-продукта.
-* End-to-end ownership: от модели данных и backend API до UI flow, polling, обработки ошибок и production delivery.
-* Опыт Team Lead / Senior IC: архитектура, code review, декомпозиция, взаимодействие со стейкхолдерами.
-* Опыт high-complexity enterprise systems: Google, fintech, cloud platforms, banking, integrations.
-
----
-
 ### Lex Humanitas — Web + Mobile AI SaaS для анализа документов, речи и коммуникаций
 
 **Основатель, ведущий архитектор и hands-on fullstack engineer** | Web + Google Play | Ноябрь 2025 – настоящее время  
