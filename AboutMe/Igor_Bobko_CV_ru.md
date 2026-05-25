@@ -1,10 +1,12 @@
 # Игорь Бобко
 
-**Архитектор ПО / Team Lead | AI Systems**  
+**Senior Fullstack Engineer / Software Architect / Hands-on Team Lead | AI Systems**  
 Москва, Россия  
 **Email:** iibobko@gmail.com  
 **Языки:** русский (родной), английский (свободно)  
-**GitHub:** https://github.com/IBobko
+**GitHub:** https://github.com/IBobko  
+**Lex Humanitas Web:** https://humanitas.lexveritas.ai  
+**Lex Humanitas Android:** https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
 ---
 
@@ -12,31 +14,37 @@
 
 ## Профиль
 
-Архитектор ПО / Team Lead с опытом более 20 лет в проектировании распределённых, высоконагруженных и AI-ориентированных систем.
+Senior Fullstack Engineer / Software Architect / Hands-on Team Lead с опытом более 20 лет в проектировании и разработке production-систем, распределённых backend-платформ, web-приложений и AI-ориентированных продуктов.
 
-Основатель и архитектор **Lex Humanitas** — production AI-платформы для транскрибации речи в реальном времени и структурированного LLM-рассуждения, с фокусом на детекции манипуляций и семантическом анализе.
+Основатель и архитектор **Lex Humanitas** — публичной AI-платформы с web- и Android-версией для транскрибации, анализа документов, разбора коммуникаций и структурированного LLM-рассуждения. Система включает backend на Python, PostgreSQL, асинхронные job pipelines, schema-driven LLM outputs, web-интерфейс на React/TypeScript/Next.js и Android-клиент на Kotlin.
+
+Имею опыт как hands-on engineer и Team Lead: архитектура, декомпозиция, code review, ownership зоны, техническое менторство, взаимодействие с PM/stakeholders и поставка production-фич end-to-end.
 
 Сильная экспертиза в построении end-to-end систем:
 
 * проектирование архитектуры и техническая декомпозиция
+* backend platform engineering на Python и Java
+* fullstack-разработка: API, state management, UI flows, frontend/backend integration
 * распределённая, отказоустойчивая и асинхронная обработка
 * интеграция AI/LLM со schema-driven выходами
-* backend platform engineering на Python и Java
-* production delivery для реальных бизнес-кейсов
+* production delivery для реальных пользовательских сценариев
+* code review, ownership зоны, взаимодействие с продуктом и самостоятельное ведение фич
 
-Фокус на создании систем, которые работают не только с данными, но и со смыслом, рассуждением и поддержкой принятия решений.
+Фокус на создании систем, которые работают не только с данными, но и со смыслом, рассуждением, пользовательскими сценариями и поддержкой принятия решений.
 
 ---
 
 ## Ключевые навыки
 
 * **Языки:** Java, Python, C++, JavaScript/TypeScript, SQL
-* **Фреймворки и платформы:** Spring (Core, WebFlux), FastAPI, Node.js, React, Vue.js
+* **Фреймворки и платформы:** Spring (Core, WebFlux), FastAPI, React, Next.js, TypeScript, Node.js, Vue.js, Android/Kotlin
 * **AI/ML:** OpenAI API, Hugging Face, TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV
 * **Архитектура и проектирование систем:** высоконагруженные системы, распределённые архитектуры, микросервисы, асинхронная обработка, job pipelines, отказоустойчивые системы, event-driven системы, REST/gRPC
 * **Cloud и DevOps:** Docker, Kubernetes, CI/CD, Azure, AWS
 * **Базы данных и messaging:** PostgreSQL, MySQL, Oracle, Redis, Kafka, Google Spanner
 * **Тестирование:** Unit, Integration, Regression, E2E, BDD, TDD
+* **Product engineering:** end-to-end feature ownership, API/UI integration, async workflows, product flows, authentication flows, token-based usage, admin/user-facing interfaces
+* **Leadership:** hands-on team leadership, code review, technical mentoring, stakeholder communication, delivery ownership
 * **Другое:** ООП, паттерны проектирования, Jupyter, Pandas, NumPy, визуализация данных
 
 ---
@@ -59,12 +67,29 @@
 
 ## Профессиональный опыт
 
-### Lex Humanitas — AI-система анализа речи и детекции манипуляций
+## Relevant for Senior Fullstack Python / React roles
 
-**Основатель и ведущий архитектор** | Google Play | Ноябрь 2025 – настоящее время  
+* 20+ лет commercial software engineering experience.
+* Production backend на Python с PostgreSQL, Docker, async job processing, idempotency и API-контрактами.
+* Web frontend на React / TypeScript / Next.js для публичного AI-продукта.
+* End-to-end ownership: от модели данных и backend API до UI flow, polling, обработки ошибок и production delivery.
+* Опыт Team Lead / Senior IC: архитектура, code review, декомпозиция, взаимодействие со стейкхолдерами.
+* Опыт high-complexity enterprise systems: Google, fintech, cloud platforms, banking, integrations.
 
-https://play.google.com/store/apps/details?id=ai.lexhumanitas
+---
 
+### Lex Humanitas — Web + Mobile AI SaaS для анализа документов, речи и коммуникаций
+
+**Основатель, ведущий архитектор и hands-on fullstack engineer** | Web + Google Play | Ноябрь 2025 – настоящее время  
+
+Web: https://humanitas.lexveritas.ai  
+Android: https://play.google.com/store/apps/details?id=ai.lexhumanitas
+
+* Спроектировал и реализовал публичную **web-версию Lex Humanitas** как часть единой product-платформы: landing, authentication flow, project-based workspace, token-based analysis model, формы запуска анализа и страницы результатов.
+* Разработал frontend на **React / TypeScript / Next.js** с мультиязычной структурой, product navigation, account flows, юридическими страницами, страницами проектов и пользовательскими сценариями анализа.
+* Интегрировал web frontend с backend API для создания проектов, запуска AI-анализов, polling асинхронных задач, отображения результатов и работы с пользовательским состоянием.
+* Реализовал единую модель продукта между web и Android: проекты, материалы, транскрибации, юридические оферты, анализы, история результатов и token-based usage.
+* Спроектировал backend-контракты и frontend state-flow так, чтобы длительные AI-задачи выполнялись асинхронно, а пользовательский интерфейс оставался устойчивым к задержкам, ошибкам сети и повторным запросам.
 * Спроектировал и реализовал production-grade **мобильную + backend AI-платформу** для анализа реальных разговоров с активными конечными пользователями.
 * Спроектировал end-to-end pipeline обработки: **захват аудио → транскрибация → LLM-анализ → структурированный JSON-вывод**.
 * Реализовал **асинхронную систему обработки на основе job'ов** с очередями, retry-механизмами, идемпотентностью, отслеживанием длительных задач и polling.
@@ -80,7 +105,7 @@ https://play.google.com/store/apps/details?id=ai.lexhumanitas
 * Добавил модуль **анализа договоров / юридических оферт** для пользовательской проверки документов.
 * Интегрировал LLM API со структурированной логикой рассуждения, валидацией и schema-based обработкой выходных данных для асинхронных AI-нагрузок.
 
-**Ключевые технологии:** Python, FastAPI, PostgreSQL, Docker, Android (Kotlin), OpenAI API, async processing, job queues
+**Ключевые технологии:** Python, FastAPI, PostgreSQL, Docker, React, TypeScript, Next.js, Android (Kotlin), OpenAI API, async processing, job queues, schema-driven LLM outputs
 
 ---
 
