@@ -30,7 +30,7 @@ Focused on building systems that operate not only on data, but on meaning, reaso
 
 ## Key Skills
 
-* **Languages:** Java, Python, C++, JavaScript/TypeScript, SQL
+* **Languages:** Java, Kotlin, Python, C++, JavaScript/TypeScript, SQL
 * **Frameworks & Platforms:** Spring (Core, WebFlux), FastAPI, Node.js, React, Vue.js
 * **AI/ML:** OpenAI API, Hugging Face, LLM integration, TensorFlow, PyTorch, Scikit-learn, OpenCV
 * **Architecture & System Design:** High-load systems, distributed architectures, microservices, asynchronous processing, job pipelines, fault-tolerant systems, event-driven systems, REST/gRPC
