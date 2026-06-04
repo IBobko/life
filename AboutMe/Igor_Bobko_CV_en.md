@@ -1,43 +1,51 @@
 # Igor Bobko
 
-**Software Architect / Team Lead | AI Systems**  
-Moscow, Russia  
-**Email:** iibobko@gmail.com  
-**Languages:** Russian (native), English (fluent)  
+**Senior Fullstack Engineer / Software Architect / Hands-on Team Lead | AI Systems**
+Moscow, Russia
+**Email:** [iibobko@gmail.com](mailto:iibobko@gmail.com)
+**Languages:** Russian (native), English (fluent)
 **GitHub:** https://github.com/IBobko
+**Lex Humanitas Web:** https://humanitas.lexveritas.ai
+**Lex Humanitas Android:** https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
 ---
 
 ---
 
-## Profile Summary
+## Profile
 
-Software Architect / Team Lead with 20+ years of experience designing distributed, high-load, and AI-driven systems.
+Senior Fullstack Engineer / Software Architect / Hands-on Team Lead with over 20 years of experience in designing and developing production systems, distributed backend platforms, web applications, and AI-oriented products.
 
-Founder and architect of **Lex Humanitas** — a production AI platform for real-time speech transcription and structured LLM-based reasoning, with a focus on manipulation detection and semantic analysis.
+Founder and architect of **Lex Humanitas** — a public AI platform with both web and Android versions for transcription, document analysis, communication analysis, and structured LLM reasoning. The system includes a Python backend, PostgreSQL, asynchronous job pipelines, schema-driven LLM outputs, a React / TypeScript / Next.js web interface, and an Android client built with Kotlin.
 
-Strong background in building end-to-end systems:
+I have experience both as a hands-on engineer and as a Team Lead: architecture, decomposition, code review, area ownership, technical mentoring, collaboration with PMs / stakeholders, and end-to-end delivery of production features.
+
+Strong expertise in building end-to-end systems:
 
 * architecture design and technical decomposition
+* backend platform engineering with Python and Java
+* fullstack development: APIs, state management, UI flows, frontend/backend integration
 * distributed, fault-tolerant, and asynchronous processing
 * AI/LLM integration with schema-driven outputs
-* backend platform engineering with Python and Java
-* production delivery for real-world use cases
+* production delivery for real user scenarios
+* code review, area ownership, product collaboration, and independent feature ownership
 
-Focused on building systems that operate not only on data, but on meaning, reasoning, and structured decision support.
+My focus is on creating systems that work not only with data, but also with meaning, reasoning, user scenarios, and decision support.
 
 ---
 
 ## Key Skills
 
-* **Languages:** Java, Kotlin, Python, C++, JavaScript/TypeScript, SQL
-* **Frameworks & Platforms:** Spring (Core, WebFlux), FastAPI, Node.js, React, Vue.js
-* **AI/ML:** OpenAI API, Hugging Face, LLM integration, TensorFlow, PyTorch, Scikit-learn, OpenCV
-* **Architecture & System Design:** High-load systems, distributed architectures, microservices, asynchronous processing, job pipelines, fault-tolerant systems, event-driven systems, REST/gRPC
-* **Cloud & DevOps:** Docker, Kubernetes, CI/CD, Azure, AWS
-* **Databases & Messaging:** PostgreSQL, MySQL, Oracle, Redis, Kafka, Google Spanner
+* **Languages:** Java, Python, C++, JavaScript/TypeScript, SQL
+* **Frameworks and Platforms:** Spring (Core, WebFlux), FastAPI, React, Next.js, TypeScript, Node.js, Vue.js, Android/Kotlin
+* **AI/ML:** OpenAI API, Hugging Face, TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV
+* **Architecture and System Design:** high-load systems, distributed architectures, microservices, asynchronous processing, job pipelines, fault-tolerant systems, event-driven systems, REST/gRPC
+* **Cloud and DevOps:** Docker, Kubernetes, CI/CD, Azure, AWS
+* **Databases and Messaging:** PostgreSQL, MySQL, Oracle, Redis, Kafka, Google Spanner
 * **Testing:** Unit, Integration, Regression, E2E, BDD, TDD
-* **Other:** OOP, Design Patterns, Jupyter, Pandas, NumPy, Data Visualization
+* **Product Engineering:** end-to-end feature ownership, API/UI integration, async workflows, product flows, authentication flows, token-based usage, admin/user-facing interfaces
+* **Leadership:** hands-on team leadership, code review, technical mentoring, stakeholder communication, delivery ownership
+* **Other:** OOP, design patterns, Jupyter, Pandas, NumPy, data visualization
 
 ---
 
@@ -59,28 +67,34 @@ Focused on building systems that operate not only on data, but on meaning, reaso
 
 ## Professional Experience
 
-### Lex Humanitas — AI System for Speech Analysis & Manipulation Detection
+### Lex Humanitas — Web + Mobile AI SaaS for Document, Speech, and Communication Analysis
 
-**Founder & Lead Architect** | Google Play | Nov 2025 – Present  
+**Founder, Lead Architect, and Hands-on Fullstack Engineer** | Web + Google Play | November 2025 – Present
 
-https://play.google.com/store/apps/details?id=ai.lexhumanitas
+Web: https://humanitas.lexveritas.ai
+Android: https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
-* Architected and built a production-grade **mobile + backend AI platform** for real-world conversation analysis with real-world usage and active users.
+* Designed and implemented the public **web version of Lex Humanitas** as part of a unified product platform: landing page, authentication flow, project-based workspace, token-based analysis model, analysis launch forms, and result pages.
+* Developed the frontend with **React / TypeScript / Next.js**, including multilingual structure, product navigation, account flows, legal pages, project pages, and user-facing analysis scenarios.
+* Integrated the web frontend with the backend API for project creation, AI analysis launch, asynchronous task polling, result rendering, and user state management.
+* Implemented a unified product model across web and Android: projects, materials, transcriptions, legal offers, analyses, result history, and token-based usage.
+* Designed backend contracts and frontend state flows so that long-running AI tasks could be executed asynchronously while the user interface remained resilient to delays, network errors, and repeated requests.
+* Designed and implemented a production-grade **mobile + backend AI platform** for analyzing real-life conversations with active end users.
 * Designed an end-to-end processing pipeline: **audio capture → transcription → LLM analysis → structured JSON output**.
-* Implemented a **job-based async processing system** with queue handling, retries, idempotency, long-running job tracking, and polling.
+* Implemented an **asynchronous job-based processing system** with queues, retry mechanisms, idempotency, long-running task tracking, and polling.
 * Designed **schema-driven LLM outputs** with strict JSON contracts, enabling deterministic parsing and stable UI integration.
-* Built a **manipulation detection engine** for identifying pressure tactics, responsibility shifting, ambiguity patterns, and pseudo-authority signals in conversations.
-* Implemented backend infrastructure using **FastAPI, PostgreSQL, and Docker**, including idempotent APIs and async job orchestration.
-* Designed and implemented a **hybrid authentication architecture** supporting device-based auth, account-based auth, and dynamic session mode switching.
-* Designed and implemented a **user financial system** with a personal wallet, credit/debit tracking, and usage-based billing for AI operations (transcription and analysis).
-* Built an internal **transaction ledger** to track financial operations, usage attribution, and account-level consistency across async workflows.
-* Integrated **Google Play Billing** with backend purchase validation and verification, including purchase-to-wallet mapping and idempotent lifecycle handling.
-* Built a **stateful account model** that combines identity (auth), financial state (wallet and transactions), and operational state (jobs, usage, and limits).
-* Built **offline-tolerant mobile behavior** with local persistence, sync recovery, and resilient networking under unstable conditions.
-* Added a **contract / legal offer analysis module** for consumer-oriented document review.
-* Integrated LLM APIs with structured reasoning logic, validation, and schema-based output handling for asynchronous AI workloads.
+* Developed a **manipulation detection engine** for identifying pressure tactics, responsibility shifting, ambiguity patterns, and pseudo-authority signals in dialogues.
+* Implemented backend infrastructure with **FastAPI, PostgreSQL, and Docker**, including idempotent APIs and orchestration of asynchronous tasks.
+* Designed and implemented a **hybrid authentication architecture** supporting device-based authentication, account-based authentication, and dynamic session-mode switching.
+* Designed and implemented a **user financial system**: personal wallet, credit/debit operation tracking, and usage-based billing for AI operations such as transcription and analysis.
+* Built an internal **transactional ledger** for financial operations, usage attribution, and account-state consistency across asynchronous workflows.
+* Integrated **Google Play Billing**: purchase validation, backend verification, purchase-to-wallet-balance mapping, and idempotent purchase lifecycle processing.
+* Built a **stateful account model** combining identity, financial state, and operational state: auth, wallet, transactions, jobs, usage, and limits.
+* Implemented **offline-resilient mobile behavior**: local storage, synchronization recovery, and reliable network operation under unstable connectivity conditions.
+* Added a **contract / legal offer analysis module** for user-facing document review.
+* Integrated LLM APIs with structured reasoning logic, validation, and schema-based output processing for asynchronous AI workloads.
 
-**Key Technologies:** Python, FastAPI, PostgreSQL, Docker, Android (Kotlin), OpenAI API, async processing, job queues
+**Key Technologies:** Python, FastAPI, PostgreSQL, Docker, React, TypeScript, Next.js, Android (Kotlin), OpenAI API, async processing, job queues, schema-driven LLM outputs
 
 ---
 
