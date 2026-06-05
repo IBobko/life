@@ -122,11 +122,11 @@ Android: https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
 ##### HarperCollins Publishers — Integration & Reporting
 
-* Led architecture and development for migration from legacy systems to modernized .NET-aligned integration flows.
-* Built integration components, shared libraries, and PDF reporting mechanisms.
+* Led architecture and development of a migration from legacy systems to modernized integration workflows aligned with the .NET ecosystem.
+* Developed integration components, shared libraries, and PDF reporting solutions.
 * Performed performance testing and provided technical mentoring within the team.
-* Communicated daily with stakeholders in Canada and the UK, including requirements clarification and delivery reporting.
-* **Team size:** 2 developers + 1 QA
+* Facilitated regular team meetings and worked closely with stakeholders from Canada and the United Kingdom on a daily basis, including requirements clarification and delivery reporting.
+* **Team size:** 2 Developers + 1 QA
 
 **Technologies:** Java 11, Microsoft Azure, Azure SQL, Maven, IntelliJ IDEA
 
@@ -136,8 +136,9 @@ Android: https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
 ##### Dow Jones — Smart Search API
 
-* Developed backend APIs for ML-powered smart search hints for Dow Jones Professional Information Business.
-* Contributed to backend design for search-related intelligence features.
+* Developed backend APIs for ML-powered intelligent search suggestions for Dow Jones Professional Information Business.
+* Participated in backend design for intelligent search functionality.
+* Facilitated team meetings, coordinated colleagues’ work, and mentored developers.
 * **Team size:** 5
 
 **Technologies:** Java, REST, ML-related backend integration, Dependency Injection, Multithreading, Maven
@@ -148,9 +149,10 @@ Android: https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
 ##### BC Technology Group — Crypto Trading / FinTech
 
-* Led backend platform development for cryptocurrency margin trading.
-* Participated in architectural design, daily scrums, mentoring, and delivery coordination.
-* Worked hands-on across backend and DevOps-related tasks in a distributed trading platform environment.
+* Led the development of a backend platform for cryptocurrency margin trading.
+* Participated in system architecture design, facilitated daily scrums, mentored developers, and coordinated delivery activities.
+* Conducted interviews, hired, onboarded, and offboarded team members.
+* Worked hands-on across backend development and DevOps tasks within a distributed trading platform environment.
 * **Team size:** 5
 
 **Technologies:** Java, Spring WebFlux, Kafka, Redis, MySQL, AWS, Kubernetes, React
