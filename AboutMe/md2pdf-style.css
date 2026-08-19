@@ -1,0 +1,115 @@
+/* md2pdf-style.css — стиль для конвертации резюме в PDF (A4).
+   Подключение: ./md2pdf.sh file.md [out.pdf] */
+
+@page {
+  size: A4;
+  margin: 14mm 16mm 16mm 16mm;
+}
+
+html {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 20pt;
+  letter-spacing: 1px;
+  margin: 0 0 2pt 0;
+  color: #111;
+}
+
+h2 {
+  font-size: 12pt;
+  margin: 0 0 2pt 0;
+  color: #222;
+  font-weight: 700;
+}
+
+p {
+  margin: 0 0 6pt 0;
+}
+
+/* Блок под заголовком: город, контакты, языки */
+header p,
+h1 + p,
+h1 + p + p {
+  margin: 1pt 0;
+}
+
+/* Разделители секций */
+hr {
+  border: none;
+  border-top: 1.5pt solid #2c2c2c;
+  margin: 8pt 0 8pt 0;
+}
+
+/* Заголовки секций резюме (##) */
+h2 {
+  border-bottom: 0.75pt solid #999;
+  padding-bottom: 2pt;
+  margin-top: 12pt;
+  margin-bottom: 6pt;
+  text-transform: none;
+}
+
+/* Подзаголовки компаний (###) */
+h3 {
+  font-size: 11pt;
+  margin: 10pt 0 2pt 0;
+  color: #111;
+}
+
+/* Подпроекты (####) */
+h4 {
+  font-size: 10.5pt;
+  margin: 8pt 0 1pt 0;
+  color: #222;
+}
+
+/* Жирные строки вроде дат/ролей — оставляем на отдельных строках */
+strong {
+  font-weight: 700;
+}
+
+/* Списки */
+ul {
+  margin: 2pt 0 6pt 0;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 2pt 0;
+}
+
+/* Ссылки — чёрные, без подчёркивания (для печати) */
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+/* Строки «Technologies:» и прочие метаданные — серым */
+p:has(> strong:first-child) {
+  color: #333;
+}
+
+/* Избегаем разрыва строки внутри блока роли/даты */
+h3, h4, h3 + p, h4 + p {
+  page-break-after: avoid;
+}
+
+h1, h2 {
+  page-break-after: avoid;
+}
+
+li {
+  page-break-inside: avoid;
+}

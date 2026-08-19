@@ -171,16 +171,16 @@ Android: https://play.google.com/store/apps/details?id=ai.lexhumanitas
 
 ##### Google — GDeal Platform
 
-* Contributed to technical planning and delivery within a 13-person engineering team supporting business-critical Google acquisition and onboarding workflows.
-* Worked with Google stakeholders and engineers to clarify requirements, integration constraints, access-control rules, and expected workflow behavior.
-* Translated ambiguous integration needs into backend services, data-processing flows, validation rules, and UI behavior.
-* Identified technical and integration risks related to data consistency, access control, internal dependencies, and processing failures.
-* Participated in architecture discussions and communicated implementation trade-offs, dependencies, and delivery constraints.
-* Led import and processing workflows, including technical decomposition, data transformation, validation, failure handling, and cross-system coordination.
-* Reviewed implementation approaches and supported engineering quality through technical discussions, code review, and shared ownership.
-* Designed and developed RPC-based backend services integrated with Google Spanner and internal Google systems.
-* Built UI components using Google’s Wiz framework and integrated workflows with Google Sheets.
-* Implemented fine-grained access control and contributed to security-sensitive integrations.
+* Designed and developed internal product capabilities supporting Google acquisition processes and employee onboarding workflows.
+* Worked with Google stakeholders and engineering teams to clarify business requirements, workflow scenarios, integration constraints, and expected system behavior.
+* Translated product requirements into backend services, data-processing workflows, validation rules, access-control logic, and user-facing UI components.
+* Designed and implemented RPC-based backend services integrated with Google Spanner and internal Google platforms.
+* Developed UI components using Google’s Wiz framework and integrated business workflows with Google Sheets.
+* Owned the implementation of import and data-processing workflows, including transformation, validation, error handling, and integration with downstream systems.
+* Implemented fine-grained access control and contributed to security-sensitive integrations involving employee and acquisition-related data.
+* Participated in architecture discussions, technical decomposition, implementation planning, code reviews, and platform evolution.
+* Collaborated closely with product, engineering, and stakeholder teams at Google to align technical solutions with changing business processes.
+* Supported delivery within a cross-functional team by taking ownership of complex functional areas and coordinating technical dependencies.
 
 **Team size:** 13
 **Technologies:** Java, RPC, Google Spanner, Google Sheets API, Wiz UI, CI/CD
